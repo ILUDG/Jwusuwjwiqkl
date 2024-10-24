@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paws & Relax - Hotel de Mascotas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Paws & Relax</h1>
+    <p>Un hogar lejos de casa para tus mejores amigos.</p>
+    <a href="#reservas" class="btn">Reserva Ahora</a>
+  </header>
+
+  <section class="services">
+    <h2>Nuestros Servicios</h2>
+    <div class="card">
+      <img src="images/guarderia.jpg" alt="Guardería">
+      <h3>Guardería</h3>
+      <p>Espacios seguros y divertidos para tus mascotas.</p>
+    </div>
+    <div class="card">
+      <img src="images/paseos.jpg" alt="Paseos">
+      <h3>Paseos</h3>
+      <p>Paseos diarios para mantener a tu mascota activa.</p>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2>Galería de Momentos Felices</h2>
+    <img src="images/dog_playing.jpg" alt="Perro jugando">
+    <video controls>
+      <source src="videos/cats_playing.mp4" type="video/mp4">
+      Tu navegador no soporta videos.
+    </video>
+  </section>
+
+  <section id="reservas" class="reservations">
+    <h2>Reserva una Estancia</h2>
+    <form>
+      <label for="name">Nombre del Dueño:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="pet-name">Nombre de la Mascota:</label>
+      <input type="text" id="pet-name" name="pet-name" required>
+
+      <label for="service">Servicio:</label>
+      <select id="service" name="service">
+        <option value="guarderia">Guardería</option>
+        <option value="paseos">Paseos</option>
+        <option value="alojamiento">Alojamiento</option>
+      </select>
+
+      <button type="submit">Reservar Ahora</button>
+    </form>
+  </section>
+
+  <section class="reviews">
+    <h2>Testimonios de Clientes</h2>
+    <div class="review">
+      <p>"Excelente servicio, mi perro siempre está feliz aquí."</p>
+      <span>- María G.</span>
+    </div>
+    <div class="review">
+      <p>"La guardería es perfecta, mi gato ama los espacios."</p>
+      <span>- Carlos T.</span>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Paws & Relax. Todos los derechos reservados.</p>
+    <div class="contact-info">
+      <p>Teléfono: +593 123 456 789</p>
+      <p>Email: contacto@pawsrelax.com</p>
+    </div>
+  </footer>
+</body>
+</html>

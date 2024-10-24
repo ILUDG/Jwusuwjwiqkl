@@ -1,0 +1,32 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  background-color: #88c9bf;
+  padding: 50px;
+  color: #fff;
+}
+
+.services, .gallery, .reservations, .reviews, .footer {
+  padding: 20px;
+  margin: 20px;
+}
+
+.card img, .gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
